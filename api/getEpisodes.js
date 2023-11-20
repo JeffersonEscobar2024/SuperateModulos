@@ -1,6 +1,7 @@
 // api/getEpisodes.js
 import axios from 'axios';
-import baseUrl from '../utils/baseUrl.js'; // Ajusté la ruta para que sea relativa
+import baseUrl from '../utils/baseUrl.js'; // Ajusté la ruta para que sea 
+relativa
 
 async function getAllEpisodes() {
   try {
